@@ -23,6 +23,10 @@ code {
 {
   @apply text-[#757B8C] bg-[#1D1F25] rounded-3xl p-3 w-28 
 }
+.nav-link li
+{
+  @apply hover:text-[#FFBB29] cursor-pointer
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

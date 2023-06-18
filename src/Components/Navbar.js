@@ -7,9 +7,9 @@ const Navbar = () => {
     <div className='bg-[#1D1F25] text-white flex justify-between p-4 border-b-2 border-white'> 
     <div className='flex items-center gap-7 my-auto mx-8'>
         <img src="/assets/logo.png" alt="" className="w-56"/>
-        <ul className='flex items-center w-80 justify-evenly text-sm font-semibold mx-7'>
+        <ul className='flex items-center w-80 justify-evenly text-sm font-semibold mx-7 nav-link'>
             <li>Home</li>
-            <li>About</li>
+            <li>About</li>                    
             <li>Work</li>
             <li>Pricing</li>
             <li>Blog</li>
