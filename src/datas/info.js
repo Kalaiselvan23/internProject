@@ -1,0 +1,67 @@
+const info=[
+    {
+        id:1,
+        img:"img01.png",
+        category:"lifestyle",
+        title:"Changing People's Lifestyles for the better",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+        timePosted:2,
+    },
+    {
+        id:2,
+        img:"img02.png",
+        category:"technology",
+        title:"Changing People's Lifestyles for the better",
+        timePosted:2,
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    },
+    {
+        id:3,
+        img:"img03.png",
+        category:"sport",
+        title:"Changing People's Lifestyles for the better",
+        timePosted:2,
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    },
+    {
+        id:4,
+        img:"img04.png",
+        category:"education",
+        title:"Changing People's Lifestyles for the better",
+        timePosted:2,
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    },
+    {
+        id:5,
+        img:"img01.png",
+        category:"lifestyle",
+        title:"Changing People's Lifestyles for the better",
+        timePosted:2,
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    },
+    {
+        id:6,
+        img:"img02.png",
+        category:"technology",
+        title:"Changing People's Lifestyles for the better",
+        timePosted:2,
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    },
+    {
+        id:7,
+        img:"img03.png",
+        category:"sport",
+        timePosted:2,
+        title:"Changing People's Lifestyles for the better",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    },
+    {
+        id:8,
+        img:"img04.png",
+        category:"education",
+        title:"Changing People's Lifestyles for the better",
+        timePosted:2,
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus",
+    }
+]
+export default info

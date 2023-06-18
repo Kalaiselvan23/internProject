@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+body {
+  margin: 0;
+  font-family:'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-[#141518]
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family:clash;
+  src: url(../public/assets/Fonts/Variable/ClashDisplay-Variable.ttf);
+}
+.navmenu-btn
+{
+  @apply w-fit h-fit p-2 bg-[#282C38] rounded-md text-[#757B8C]
+}
+.tags button
+{
+  @apply text-[#757B8C] bg-[#1D1F25] rounded-3xl p-3 w-28 
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
