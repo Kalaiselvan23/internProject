@@ -4,11 +4,12 @@ import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { CiGrid2H } from "react-icons/ci";
 const Navmenu = () => {
   return (
-    <div className="bg-[#1D1F25] text-white p-5">
-      <h1 className="text-4xl font-bold text-left my-10 mx-10">
+    <div className="bg-[#1D1F25] text-white p-5 w-full mx-auto">
+    <div className="w-full">
+      <h1 className="text-4xl font-bold text-left my-10 mx-12">
         We tackle intresting topics every day
       </h1>
-      <div className="flex justify-between my-4 mx-7">
+      <div className="flex justify-between w-[95%] my-4 mx-auto ">
         <label
           className="bg-[#282C38] text-[#757B8C] rounded-md flex items-center h-11 w-fit mx-3 gap-4 justify-evenly p-3"
           for="search-bar"
@@ -29,6 +30,7 @@ const Navmenu = () => {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 };

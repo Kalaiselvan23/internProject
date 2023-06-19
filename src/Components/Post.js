@@ -2,7 +2,7 @@ import React from "react";
 import {BsArrowRight} from "react-icons/bs"
 const Post = (props) => {
   return (
-    <div className="flex flex-col w-80 h-[450px] mx-5 my-5 rounded-lg bg-[#1D1F25]">
+    <div className="flex flex-col w-[325px] h-[450px] mx-1 my-2 rounded-lg bg-[#1D1F25]">
       <img src={`/assets/postImages/${props.post.img}`} alt="" />
       <div className="flex justify-between mx-3 my-3">
         <span className="text-yellow-500 font-semibold text-sm tracking-[4px]">

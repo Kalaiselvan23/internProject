@@ -13,7 +13,7 @@ const Contents = () => {
 
   return (
     <div className='bg-[#141518] '>
-      <div className='tags flex gap-2 mx-9 p-5 justify-left '>
+      <div className='tags flex gap-2 mx-12 p-5 justify-left'>
         {tags.map((item, index) => (
           <button
             className={isTagged === item ? 'active' : ''}
@@ -25,7 +25,7 @@ const Contents = () => {
           </button>
         ))}
       </div>
-      <div className='flex flex-wrap justify-start mx-10'>
+      <div className='flex flex-wrap justify-start mx-auto gap-1 w-[90%]'>
         {isTagged === 'All' || isTagged === ''
           ? info.map(getPost)
           : info.filter((item) => item.category === isTagged.toLowerCase()).map(getPost)}
